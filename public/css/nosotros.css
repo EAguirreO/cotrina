@@ -1,0 +1,54 @@
+.section-nosotros{
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+/* Seccion 1 */
+.section-1{
+    padding-top: 130px;
+    margin-bottom: 100px;
+}
+.sec-1-div-1{
+    width: 50%;
+    margin-right: 70px;
+}
+.sec-1-div-1 h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #11434c;
+}
+.sec-1-div-1 p{
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+    text-align: justify;
+}
+.sec-1-div-2{
+    width: 50%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+
+/* Seccion 2 */
+.section-2{
+    margin-bottom: 100px;
+}
+.sec-2-div-1{
+    width: 50%;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-right: 70px;
+}
+.sec-2-div-2{
+    width: 50%;
+}
+.sec-2-div-2 h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #11434c;
+}
+.sec-2-div-2 p{
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+    text-align: justify;
+}

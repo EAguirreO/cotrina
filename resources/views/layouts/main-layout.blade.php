@@ -57,7 +57,9 @@
             </div>
             <div class="header-3 d-flex align-items-center">
                 <div class="d-flex align-items-center">
-                    <img src="{{asset('img/inicio/user-icon.png')}}" alt="">
+                    <button class="btn">
+                        <img class="img-fluid" src="{{asset('img/inicio/user-icon.png')}}" alt="">
+                    </button>
                     <div>
                         <p class="mensaje-header">Hola</p>
                         <p class="mensaje-header">Inicia sesión</p>
@@ -188,47 +190,62 @@
         @yield('content')
     </main>
 
-    <footer class="container-fluid">
-        <div class="footer-content-1 d-flex justify-content-between">
-            <div class="footer-1 d-flex">
-                <div class="footer-sub-1">
-                    <h3>Moda Cuchita</h3>
-                    <div class="d-flex flex-column align-items-start">
-                        <a class="" href="{{url('nosotros')}}">Nosotros</a>
-                        <a class="" href="{{url('contactenos')}}">Escríbenos</a>
-                    </div>
+    <footer class="container-fluid px-0">
+        <div class="footer-content-1">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="footer-1 d-flex flex-column">
+                    <p class="footer-text-1">Suscríbete a nuestro Boletín de Noticias</p>
+                    <p class="footer-text-2">Así podrás estar al tanto de nuevos productos.</p>
                 </div>
-                <div class="footer-sub-2">
-                    <h3>Nuestros Productos</h3>
-                    <div class="d-flex flex-column align-items-start">
-                        <a class="" href="{{url('ninios')}}">Niños</a>
-                        <a class="" href="{{url('ninias')}}">Niñas</a>
-                        <a class="" href="{{url('caballeros')}}">Caballeros</a>
-                        <a class="" href="{{url('damas')}}">Damas</a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-2">
-                <p>Sé el primero en conocer nuestras últimas colecciones y ofertas especiales.</p>
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Ingresa tu correo aquí..." aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    <button class="input-group-text" id="basic-addon2"><img src="{{asset('img/inicio/enviar.png')}}"></button>
+                <div class="input-correo input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Escribe tu correo aquí..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <button class="input-group-text" id="basic-addon2"><img src="{{asset('img/inicio/send.png')}}"></button>
                 </div>
             </div>
         </div>
-        <div class="footer-content-2 row">
-            <div class="col-12 col-md-12 col-lg-3 mb-4 mb-md-4 mb-lg-0">
+        <div class="footer-content-2">
+            <div class="footer-sub-content d-flex justify-content-between">
+                <div class="footer-div-1 d-flex">
+                    <div class="footer-sub-1 d-flex flex-column">
+                        <h3 class="footer-titulo">Cotrina</h3>
+                        <div class="d-flex flex-column align-items-start">
+                            <a class="footer-enlace" href="">Nosotros</a>
+                            <a class="footer-enlace" href="">Novedades</a>
+                            <a class="footer-enlace" href="">Ubícanos</a>
+                        </div>
+                    </div>
+                    <div class="footer-sub-2 d-flex flex-column">
+                        <h3 class="footer-titulo">Servicio al Cliente</h3>
+                        <div class="d-flex flex-column align-items-start">
+                            <a class="footer-enlace" href="">Términos y Condiciones</a>
+                            <a class="footer-enlace" href="">Libro de Reclamaciones</a>
+                            <a class="footer-enlace" href="">Preguntas Frecuentes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-div-2 d-flex">
+                    <div class="footer-sub-3 d-flex flex-column">
+                        <h3 class="footer-titulo">Métodos de Pago</h3>
+                        <div>
+                            <img class="img-fluid me-3" src="{{asset('img/inicio/visa.png')}}" alt="">
+                            <img class="img-fluid me-3" src="{{asset('img/inicio/mastercard.png')}}" alt="">
+                            <img class="img-fluid" src="{{asset('img/inicio/diners.png')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-sub-4">
+                        <img src="{{asset('img/inicio/libro-reclamaciones.png')}}" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-div-3 d-flex justify-content-between">
                 <p>Diseñado por Katana Studio.</p>
-            </div>
-            <div class="col-12 col-md-6 col-lg-6 mb-4 mb-md-0">
-                <p class="text-center">© Moda Cuchita. Todos los derechos reservados.</p>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="footer-sub-3 d-flex">
-                    <p class="me-4">Síguenos:</p>
+                <p>© Cotrina. Todos los derechos reservados.</p>
+                <div class="d-flex">
+                    <p class="me-3">Síguenos</p>
                     <div>
-                        <a class="me-3" href="{{url('nosotros')}}"><img src="{{asset('img/inicio/facebook-footer.png')}}" alt=""></a>
-                        <a class="" href="{{url('nosotros')}}"><img src="{{asset('img/inicio/instagram-footer.png')}}" alt=""></a>
+                        <a href="http://" class="me-3"><img src="{{asset('img/inicio/facebook.png')}}" alt=""></a>
+                        <a href="http://" class="me-3"><img src="{{asset('img/inicio/instagram.png')}}" alt=""></a>
+                        <a href="http://" class=""><img src="{{asset('img/inicio/linkedin.png')}}" alt=""></a>
                     </div>
                 </div>
             </div>
