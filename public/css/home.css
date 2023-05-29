@@ -119,8 +119,8 @@
 	display: flex !important;
 	visibility: visible !important;
 }
-.slick-prev,
-.slick-next
+.section-2 .slick-prev,
+.section-2 .slick-next
 {
     font-size: 0;
     line-height: 0;
@@ -146,18 +146,18 @@
 
 	z-index: 888;
 }
-.slick-prev{
+.section-2 .slick-prev{
 	background-image: url(../img/inicio/arrow-left-disabled.png);
     left: -23px;
 }
-.slick-next{
+.section-2 .slick-next{
 	background-image: url(../img/inicio/arrow-right-disabled.png);
     right: -23px;
 }
-.slick-prev:hover{
+.section-2 .slick-prev:hover{
 	background-image: url(../img/inicio/arrow-left.png);
 }
-.slick-next:hover{
+.section-2 .slick-next:hover{
 	background-image: url(../img/inicio/arrow-right.png);
 }
 
@@ -189,9 +189,11 @@
 .seccion-3-prod{
 	display: block;
 	text-decoration: none;
-	margin-bottom: 40px;
-	min-width: 170px;
-	width: 100%;
+	/* margin-bottom: 40px; */
+	/* min-width: 170px; */
+	/* width: 100%; */
+	margin-left: 10px;
+	margin-right: 10px;
 }
 .seccion-3-prod > h4{
 	color: #11434c;

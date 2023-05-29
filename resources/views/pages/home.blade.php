@@ -152,7 +152,7 @@
             <h2>Nuevos productos</h2>
             <a href="" class="btn btn-ver-catalogo">VER CATÁLOGO</a>
         </div>
-        <div class="row">
+        {{-- <div class="row">
             <div class="col">
                 <a href="https://www.google.com" class="seccion-3-prod">
                     <div class="seccion-3-prod-cont d-flex flex-column justify-content-end align-items-end" style="background-image: url({{asset('img/inicio/aceitunas.jpg')}})">
@@ -209,6 +209,53 @@
                 </a>
             </div>
             
+        </div> --}}
+        <div class="autoplay-2">
+            <a href="https://www.google.com" class="seccion-3-prod">
+                <div class="seccion-3-prod-cont d-flex flex-column justify-content-end align-items-end" style="background-image: url({{asset('img/inicio/aceitunas.jpg')}})">
+                    <div class="sec-3-oculto d-flex justify-content-center">
+                        <p>VER PRODUCTO</p>
+                    </div>
+                </div>
+                <h4>Cúrcuma en polvo</h4>
+                <p>S/20.00</p>
+            </a>
+            <a href="https://www.google.com" class="seccion-3-prod">
+                <div class="seccion-3-prod-cont d-flex flex-column justify-content-end align-items-end" style="background-image: url({{asset('img/inicio/aceitunas.jpg')}})">
+                    <div class="sec-3-oculto d-flex justify-content-center">
+                        <p>VER PRODUCTO</p>
+                    </div>
+                </div>
+                <h4>Jengibre en polvo</h4>
+                <p>S/18.90</p>
+            </a>
+            <a href="https://www.google.com" class="seccion-3-prod">
+                <div class="seccion-3-prod-cont d-flex flex-column justify-content-end align-items-end" style="background-image: url({{asset('img/inicio/aceitunas.jpg')}})">
+                    <div class="sec-3-oculto d-flex justify-content-center">
+                        <p>VER PRODUCTO</p>
+                    </div>
+                </div>
+                <h4>Palta en cubos conge...</h4>
+                <p>S/32.00</p>
+            </a>
+            <a href="https://www.google.com" class="seccion-3-prod">
+                <div class="seccion-3-prod-cont d-flex flex-column justify-content-end align-items-end" style="background-image: url({{asset('img/inicio/aceitunas.jpg')}})">
+                    <div class="sec-3-oculto d-flex justify-content-center">
+                        <p>VER PRODUCTO</p>
+                    </div>
+                </div>
+                <h4>Papa amarilla entera...</h4>
+                <p>S/9.90</p>
+            </a>
+            <a href="https://www.google.com" class="seccion-3-prod">
+                <div class="seccion-3-prod-cont d-flex flex-column justify-content-end align-items-end" style="background-image: url({{asset('img/inicio/aceitunas.jpg')}})">
+                    <div class="sec-3-oculto d-flex justify-content-center">
+                        <p>VER PRODUCTO</p>
+                    </div>
+                </div>
+                <h4>Banano entero</h4>
+                <p>S/12.50</p>
+            </a>
         </div>
 
     </div>
@@ -272,6 +319,44 @@
             slidesToScroll: 1,
             // autoplay: true,
             // arrows: true,
+            // dotsClass: 'slick-dots',
+            responsive: [{
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false,
+                        arrows: false
+                    }
+                }
+            ]
+        });
+        $('.autoplay-2').slick({
+            dots: false,
+            infinite: true,
+            // autoplaySpeed: 2000,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            // autoplay: true,
+            arrows: false,
             // dotsClass: 'slick-dots',
             responsive: [{
                     breakpoint: 1200,

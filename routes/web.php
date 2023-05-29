@@ -54,10 +54,13 @@ Route::get('/catalogo', function () {
     return view('pages.catalogo');
 })->name('client.catalog');
 
-Route::get('/catalogo/detalle/{identif}', function ($identif) {
-    Product::findOrFail($identif);
-    return view('pages.catalogo-detalle', compact('identif'));
-    // return view('pages.catalogo-detalle');
+// Route::get('/catalogo/detalle/{identif}', function ($identif) {
+//     Product::findOrFail($identif);
+//     return view('pages.catalogo-detalle', compact('identif'));
+// })->name('client.productDetail');
+
+Route::get('/catalogo-detalle', function () {
+    return view('pages.catalogo-detalle');
 })->name('client.productDetail');
 
 Route::get('/contactenos', function () {
