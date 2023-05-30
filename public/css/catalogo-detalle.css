@@ -39,9 +39,17 @@
     margin-bottom: 15px;
     filter: opacity(50%);
 }
-.div-imgs-1 > .prod-activo{
+/* .div-imgs-1 > .prod-activo{
     border-color: #2db18a;
     filter: opacity(100%);
+} */
+.div-imgs-1 > .active{
+    border-color: #2db18a;
+    filter: opacity(100%);
+}
+.div-imgs-2{
+    overflow: hidden;
+    border-radius: 15px;
 }
 .prod-descripcion{
     padding-left: 50px;

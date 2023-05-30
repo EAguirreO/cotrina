@@ -63,6 +63,10 @@ Route::get('/catalogo-detalle', function () {
     return view('pages.catalogo-detalle');
 })->name('client.productDetail');
 
+Route::get('/novedades', function () {
+    return view('pages.novedades');
+})->name('client.novedades');
+
 Route::get('/contactenos', function () {
     return view('pages.contactenos');
 })->name('contacto.form');

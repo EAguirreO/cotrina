@@ -38,11 +38,11 @@
 
                     <a class="nav-link {{ (request()->is('nosotros')) ? 'nav-link-activo' : '' }}" href="{{url('nosotros')}}">Conócenos</a>
 
-                    <a class="nav-link {{ (request()->is('catalogo')) ? 'nav-link-activo' : '' }}" href="{{url('')}}">Catálogo</a>
+                    <a class="nav-link {{ (request()->is('catalogo')) ? 'nav-link-activo' : '' }}" href="{{url('catalogo')}}">Catálogo</a>
 
                     <a class="nav-link {{ (request()->is('')) ? 'nav-link-activo' : '' }}" href="{{url('')}}">Agroindustrial</a>
 
-                    <a class="nav-link {{ (request()->is('')) ? 'nav-link-activo' : '' }}" href="{{url('')}}">Novedades</a>
+                    <a class="nav-link {{ (request()->is('novedades')) ? 'nav-link-activo' : '' }}" href="{{url('novedades')}}">Novedades</a>
                     
                     <a class="nav-link {{ (request()->is('')) ? 'nav-link-activo' : '' }}" href="{{url('')}}">Ubícanos</a>
 

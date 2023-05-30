@@ -18,7 +18,7 @@
         <div class="col-12 col-md-6">
             <div class="cont-imgs-producto d-flex">
                 <div class="div-imgs-1 d-flex flex-column">
-                    <button class="btn prod-activo" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0">
+                    <button class="btn active" aria-current="true" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0">
                         <img class="img-fluid" src="{{asset('img/catalogo-detalle/detalle01.jpg')}}" alt="">
                     </button>
                     <button class="btn" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
