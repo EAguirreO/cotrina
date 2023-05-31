@@ -165,6 +165,69 @@
     margin-right: 40px;
 }
 
+
+/* Modal login */
+#loginModal .modal-body{
+    padding: 30px 50px;
+}
+#loginModal .modal-content{
+    border-radius: 20px;
+}
+.login-titulo{
+    font-size: 2.2rem;
+    color: #11434c;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.login-label{
+    color: #11434c;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.login-input{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    font-size: 1.2rem;
+}
+.login-input:focus{
+    border-color: #2db18a;
+    box-shadow: none;
+}
+.login-input:focus::placeholder{
+    color: #2db18a;
+}
+.login-link-forgot-pass{
+    text-decoration: none;
+    color: #212529;
+    font-size: 1.1rem;
+}
+.login-link-forgot-pass:hover{
+    color: #11434c;
+}
+.btn-login-ingresar{
+    background-color: #11434c !important;
+    color: white !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.login-link-register{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.login-link-register > a{
+    color: #11434c;
+    text-decoration: none;
+    font-weight: 500;
+}
+
 @media (max-width: 1440px) {
     /* .header{
         padding-left: 80px;

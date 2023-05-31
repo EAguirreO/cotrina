@@ -252,6 +252,35 @@
         </div>
     </footer>
 
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+        Launch demo modal
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2 class="login-titulo">Hola, inicia sesión aquí</h2>
+                    <div class="mb-3">
+                        <label for="iptEmail" class="form-label login-label">Correo electrónico</label>
+                        <input type="email" class="form-control login-input" id="iptEmail" placeholder="Ingresa tu correo electrónico">
+                    </div>
+                    <div class="mb-3">
+                        <label for="iptPassword" class="form-label login-label">Contraseña</label>
+                        <input type="password" class="form-control login-input" id="iptPassword" placeholder="Ingresa tu contraseña">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a class="login-link-forgot-pass" href="www.google.com">¿Olvidaste tu contraseña?</a>
+                        <button class="btn btn-login-ingresar">INGRESAR</button>
+                        <p class="login-link-register">¿No tienes una cuenta? <a href="">Regístrate</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     {{-- Bootstrap JS --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     {{-- JQuery --}}

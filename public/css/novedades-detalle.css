@@ -1,0 +1,135 @@
+.section-novedades-detalle{
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.section-1{
+    padding-top: 80px;
+    margin-bottom: 100px;
+}
+.img-detalle{
+    border-radius: 40px;
+    margin-bottom: 50px;
+}
+.sec-1-div{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.enlace-regresar{
+    color: black !important;
+    font-size: 1.2rem;
+    text-decoration: none;
+    line-height: 1.2rem;
+    border-bottom: 1px solid black;
+}
+.titulo-novedad{
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    font-weight: 600;
+    color: #11434c;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.fecha-novedad{
+    color: #2db18a;
+    padding-left: 8px;
+    font-weight: 400;
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+}
+.sec-1-div > p{
+    text-align: justify;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #6c6e6f;
+    /* line-height: 1.4rem; */
+}
+.texto-especial{
+    margin-top: 30px;
+    color: #2db18a !important;
+    font-weight: 600;
+    font-size: 1.6rem !important;
+}
+.img-sim-video{
+    margin-top: 50px;
+    border-radius: 40px;
+}
+
+.section-2{
+	margin-bottom: 70px;
+}
+.section-2 h2{
+	font-size: 3.4rem;
+	color: #11434c;
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+.section-2 .row{
+    margin-top: 30px;
+}
+.btn-ver-novedades{
+	background-color: #11434c;
+	color: white;
+	font-size: 1.4rem;
+	font-weight: 500;
+	padding: 6px 25px;
+	border-radius: 10px;
+	border: 2px solid #11434c;
+}
+.btn-ver-novedades:hover{
+	color: #11434c;
+	background-color: white;
+	border: 2px solid #11434c;
+}
+.seccion-2-novedad{
+	display: block;
+	text-decoration: none;
+	margin-bottom: 40px;
+	/* min-width: 170px; */
+	width: 100%;
+}
+.seccion-2-novedad > h4{
+	color: #11434c;
+	font-size: 1.6rem;
+	font-weight: 600;
+	/* margin-top: 10px; */
+	margin-bottom: 10px;
+}
+.seccion-2-novedad-cont{
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: 300px !important;
+	overflow: hidden;
+	border-radius: 20px;
+	margin-bottom: 15px;
+}
+.sec-2-oculto{
+	display: none !important;
+	visibility: hidden !important;
+	width: 100%;
+	background-color: #11434c;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.sec-2-oculto > p{
+	/* text-align: center; */
+	margin-bottom: 0;
+	color: white;
+	font-size: 1.3rem;
+}
+.seccion-2-novedad:hover .sec-2-oculto{
+	display: flex !important;
+	visibility: visible !important;
+}
+.novedad-fecha{
+	color: #2db18a;
+	font-size: 1.3rem;
+	margin-bottom: 0;
+}
+.novedad-texto{
+	color: black;
+	text-align: justify;
+	font-size: 1.1rem;
+	line-height: 1.1rem;
+}
