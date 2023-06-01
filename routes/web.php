@@ -71,6 +71,10 @@ Route::get('/novedades-detalle', function () {
     return view('pages.novedades-detalle');
 })->name('client.novedades-detalle');
 
+Route::get('/registro', function () {
+    return view('pages.registro');
+})->name('client.registro');
+
 Route::get('/contactenos', function () {
     return view('pages.contactenos');
 })->name('contacto.form');

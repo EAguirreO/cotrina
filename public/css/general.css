@@ -1,5 +1,11 @@
+@font-face {
+    font-family: Myriad;
+    src: url('../fonts/MyriadVariableConcept-Roman.otf');
+}
+
 *{
-    font-family: 'Baloo Chettan 2', cursive;
+    /* font-family: 'Baloo Chettan 2', cursive; */
+    font-family: Myriad;
 }
 .overflow-x-hidden{
     overflow-x: hidden !important;
