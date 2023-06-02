@@ -1,0 +1,55 @@
+.content-registro-validacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.registro-validacion-div{
+    background-color: #ebf7f3;
+    max-width: 520px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.registro-validacion-div > div{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.registro-validacion-div > h1{
+    color: #11434c;
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.registro-validacion-div p{
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+}
+#iptCodigo{
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #2db18a;
+    color: #2db18a;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#iptCodigo::placeholder{
+    color: #2db18a;
+}
+.btn-validar{
+    background-color: #11434c !important;
+    width: 100%;
+    color: white !important;
+    padding: 15px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 10px;
+}

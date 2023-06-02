@@ -11,7 +11,8 @@
     overflow-x: hidden !important;
 }
 .main-web{
-    min-height: 80vh;
+    /* min-height: 80vh; */
+    min-height: 40vh;
 }
 .header{
 	background-color: #11434c;
@@ -174,7 +175,7 @@
 
 /* Modal login */
 #loginModal .modal-body{
-    padding: 30px 50px;
+    padding: 40px 50px 30px;
 }
 #loginModal .modal-content{
     border-radius: 20px;
@@ -234,136 +235,105 @@
     font-weight: 500;
 }
 
+
+/* Modal recuperar contraseña 1 */
+#recuperarContrasenia1 .modal-body{
+    padding: 40px 50px 30px;
+}
+#recuperarContrasenia1 .modal-content{
+    border-radius: 20px;
+}
+#recuperarContrasenia1 .modal-dialog{
+    max-width: 470px;
+}
+.recuperarContrasenia1-titulo{
+    font-size: 2.2rem;
+    color: #11434c;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.recuperarContrasenia1-texto{
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    text-align: center;
+}
+.recuperarContrasenia-input{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #2db18a;
+    border-color: #2db18a;
+}
+.recuperarContrasenia-input::placeholder{
+    color: #2db18a;
+}
+.recuperarContrasenia-input:focus{
+    border-color: #2db18a;
+    box-shadow: none;
+}
+.recuperarContrasenia-input:focus::placeholder{
+    border-color: #2db18a;
+}
+.btn-recuperarContrasenia-enviar{
+    background-color: #11434c !important;
+    color: white !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 100%;
+}
+.recuperarContrasenia-register{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.recuperarContrasenia-register > a{
+    color: #11434c;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+/* Modal recuperar contraseña 2 */
+#recuperarContrasenia2 .modal-body{
+    padding: 40px 50px 30px;
+}
+#recuperarContrasenia2 .modal-content{
+    border-radius: 20px;
+}
+#recuperarContrasenia2 .modal-dialog{
+    max-width: 480px;
+}
+.recuperarContrasenia2-titulo{
+    font-size: 2.2rem;
+    color: #11434c;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.recuperarContrasenia2-texto{
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    text-align: center;
+}
+
 @media (max-width: 1440px) {
-    /* .header{
-        padding-left: 80px;
-        padding-right: 80px;
-    }
-    .header-1{
-        position: relative;
-        left: -25px;
-    }
-    footer{
-        padding-left: 80px !important;
-        padding-right: 80px !important;
-    } */
 }
-
 @media (max-width: 1200px) {
-    /* .header{
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-    .contenedor-rs-header{
-        visibility: hidden;
-        display: none;
-    }
-    .nav-menu .nav-link{
-        font-size: 1.1rem;
-    }
-    footer{
-        padding-left: 60px !important;
-        padding-right: 60px !important;
-    }
-    .footer-sub-1{
-        margin-right: 60px;
-    }
-    .footer-1{
-        margin-right: 60px;
-    } */
 }
-
 @media (max-width: 992px) {
-    /* .nav-menu{
-        visibility: hidden;
-        display: none;
-    }
-    .btn-abrir-menu{
-        visibility: visible;
-        display: block;
-    }
-    .footer-1{
-        margin-right: 0;
-        margin-bottom: 50px;
-        justify-content: center;
-    }
-    .footer-content-1{
-        flex-direction: column;
-    }
-    .footer-2{
-        max-width: none;
-    }
-    .footer-2 p{
-        text-align: center;
-    }
-    .footer-2 .input-group{
-        margin: auto;
-    } */
 }
-
-@media (max-width: 991px) {
-    /* .footer-content-2 p{
-        text-align: center;
-    }
-    .footer-sub-3{
-        justify-content: center;
-    } */
-}
-
 @media (max-width: 768px) {
-    /* .header{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    footer{
-        padding-left: 30px !important;
-        padding-right: 30px !important;
-    }
-    .footer-1{
-        flex: auto;
-    } */
 }
-
 @media (max-width: 600px) {
-    /* .footer-1{
-        flex-direction: column;
-    }
-    .footer-sub-1{
-        margin-right: 0;
-    }
-    .footer-sub-1 h3,
-    .footer-sub-2 h3{
-        text-align: center;
-    }
-    .footer-sub-1>div, .footer-sub-2>div{
-        align-items: center !important;
-    } */
 }
-
 @media (max-width: 425px) {
-    /* .img-logo{
-        width: 160px;
-    }
-    .footer-sub-1 h3, 
-    .footer-sub-2 h3 {
-        font-size: 1.5rem;
-    }
-    .footer-2 p{
-        font-size: 1.5rem;
-    }
-    .footer-sub-1 a,
-    .footer-sub-2 a{
-        font-size: 1rem;
-    } */
 }
-
 @media (max-width: 375px) {
-    /* .header{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    footer{
-        padding-left: 20px !important;
-        padding-right: 20px !important;
-    } */
 }

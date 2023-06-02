@@ -75,6 +75,14 @@ Route::get('/registro', function () {
     return view('pages.registro');
 })->name('client.registro');
 
+Route::get('/registro-validacion', function () {
+    return view('pages.registro-validacion');
+})->name('client.registro-validacion');
+
+Route::get('/cuenta-creada', function () {
+    return view('pages.cuenta-creada');
+})->name('client.cuenta-creada');
+
 Route::get('/contactenos', function () {
     return view('pages.contactenos');
 })->name('contacto.form');

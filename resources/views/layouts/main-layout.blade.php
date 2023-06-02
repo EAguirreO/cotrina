@@ -252,12 +252,12 @@
         </div>
     </footer>
 
-    <!-- Button trigger modal -->
+    <!-- Button login modal -->
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
-        Launch demo modal
+        Login
     </button>
     
-    <!-- Modal -->
+    <!-- Login Modal -->
     <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -276,6 +276,46 @@
                         <button class="btn btn-login-ingresar">INGRESAR</button>
                         <p class="login-link-register">¿No tienes una cuenta? <a href="">Regístrate</a></p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button recuperar contraseña 1 modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#recuperarContrasenia1">
+        Recuperar contraseña 1
+    </button>
+
+    {{-- Recuperar contraseña 1 modal --}}
+    <div class="modal fade" id="recuperarContrasenia1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2 class="recuperarContrasenia1-titulo">Recupera tu contraseña</h2>
+                    <p class="recuperarContrasenia1-texto">Ingresa el correo electrónico de tu cuenta para proceder con la recuperación de tu contraseña.</p>
+                    <div class="mb-3">
+                        <label for="iptEmailRecuperarContrasenia" class="form-label login-label">Correo electrónico</label>
+                        <input type="email" class="form-control recuperarContrasenia-input" id="iptEmailRecuperarContrasenia" placeholder="Ingresa tu correo electrónico">
+                    </div>
+                    <button class="btn btn-recuperarContrasenia-enviar">ENVIAR</button>
+                    <p class="recuperarContrasenia-register">¿No tienes una cuenta? <a href="">Regístrate</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Button recuperar contraseña 2 modal --}}
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#recuperarContrasenia2">
+        Recuperar contraseña 2
+    </button>
+
+    {{-- Recuperar contraseña 1 modal --}}
+    <div class="modal fade" id="recuperarContrasenia2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2 class="recuperarContrasenia2-titulo">Recupera tu contraseña</h2>
+                    <p class="recuperarContrasenia2-texto">Revisa tu correo y sigue las indicaciones para recuperar tu contraseña.</p>
                 </div>
             </div>
         </div>
