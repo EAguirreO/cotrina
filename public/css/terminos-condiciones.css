@@ -1,0 +1,40 @@
+.content-terminos-condiciones{
+    padding: 70px 140px 100px;
+}
+
+.linea-verde{
+    max-width: 800px;
+    height: 2px;
+    background-color: #2bb289;
+    margin: auto;
+    margin-bottom: 45px;
+}
+.contenedor{
+    width: 1050px;
+}
+.contenedor > h1{
+    font-size: 3.3rem;
+    color: #11434c;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contenedor p{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.contenedor > h2{
+    color: #11434c;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor > h3,
+.contenedor > h4{
+    color: #11434c;
+    font-size: 1.7rem;
+    font-weight: 600;
+}

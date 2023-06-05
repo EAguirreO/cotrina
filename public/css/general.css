@@ -323,6 +323,117 @@
     text-align: center;
 }
 
+
+/* Perfil Menu */
+.perfilMenu{
+    width: 395px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.perfilMenu-1{
+    background-color: #d1efe5;
+    padding: 30px 40px;
+}
+.img-perfilMenu-1{
+    margin-right: 20px
+}
+.text-1-perfilMenu-1{
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #11434c;
+}
+.text-2-perfilMenu-1{
+    margin-bottom: 0;
+    color: #11434c;
+    font-size: 2.1rem;
+    line-height: 2.1rem;
+    font-weight: 700;
+}
+.perfilMenu-2-enlace{
+    background-color: #e5f6f0;
+    padding: 20px 40px 25px;
+    text-decoration: none;
+    display: block;
+}
+.perfilMenu-2-enlace > span{
+    color: #11434c;
+    font-size: 1.6rem;
+    font-weight: 500;
+    position: relative;
+    top: 5px
+}
+.perfilMenu-2-enlace > img{
+    margin-right: 15px;
+}
+.perfilMenu-2-enlace:hover{
+    background-color: #c0e8dd;
+}
+.perfilMenu-2-enlace-activo{
+    background-color: #c0e8dd;
+}
+.perfilMenu-2-enlace-activo::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 8px;
+    background-color: #11434c;
+}
+
+
+/* Modal Cerrar Sesion */
+#cerrarSesionModal .modal-body{
+    padding: 40px 50px 30px;
+}
+#cerrarSesionModal .modal-dialog{
+    max-width: 480px;
+}
+#cerrarSesionModal .modal-content{
+    border-radius: 20px;
+}
+.cerrarSesionModal-titulo{
+    font-size: 2.2rem;
+    color: #11434c;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.cerrarSesionModal-texto{
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    text-align: center;
+}
+.cerrarSesionModalBtn-si{
+    background-color: #11434c !important;
+    color: white !important;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 100%;
+}
+.cerrarSesionModalBtn-no{
+    background-color: white !important;
+    color: #2db18a !important;
+    border-color: #2db18a !important;
+    border-width: 2px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 100%;
+}
+
 @media (max-width: 1440px) {
 }
 @media (max-width: 1200px) {

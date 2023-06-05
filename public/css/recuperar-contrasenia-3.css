@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Myriad;
+    src: url('../fonts/MyriadVariableConcept-Roman.otf');
+}
+
+*{
+    font-family: Myriad;
+}
+
+.header{
+    background-color: #11434c;
+	padding-top: 28px;
+    padding-bottom: 28px;
+	width: 100%;
+}
+.div-container{
+    padding-top: 100px;
+}
+.contenedor{
+    max-width: 360px;
+}
+.titulo{
+    font-size: 2.2rem;
+    color: #11434c;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.texto{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+}
+.form-label{
+    color: #11434c;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.form-control{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+.form-control:focus{
+    border-color: #2db18a;
+    box-shadow: none;
+}
+.form-control:focus::placeholder{
+    color: #2db18a;
+}
+.btn-enviar{
+    background-color: #11434c !important;
+    color: white !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 100%;
+}
+.informacion{
+    font-size: 0.97rem;
+    line-height: 0.97rem;
+    color: gray;
+}
+.enlace{
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    color: gray;
+    text-decoration: none;
+}
+.aviso-registro{
+    font-size: 1.2rem;
+    text-align: center;
+    color: gray;
+}
+.aviso-registro > a{
+    color: #11434c;
+    text-decoration: none;
+    font-weight: 500;
+}

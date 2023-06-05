@@ -1,0 +1,121 @@
+.content-perfil-usuario{
+    padding-top: 80px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.label-custom{
+    color: #11434c;
+    font-size: 1.6rem;
+    font-weight: 600;
+    /* margin-bottom: 0; */
+}
+.input-custom{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #5b5b5b;
+    font-size: 1.4rem;
+    color: #5b5b5b;
+}
+.input-custom:focus::placeholder{
+    color: #5b5b5b;
+}
+.input-custom:focus{
+    /* border-color: #2db18a; */
+    border-color: #5b5b5b;
+    box-shadow: none;
+}
+.input-custom:focus::placeholder{
+    /* color: #2db18a; */
+}
+
+.contenido{
+    /* width: 100%; */
+    flex-grow: 1;
+    padding-left: 50px;
+}
+.contenido-titulo{
+    font-size: 3.3rem;
+    color: #11434c;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 28px
+}
+.linea-verde{
+    width: 100%;
+    height: 2px;
+    background-color: #2bb289;
+    margin-bottom: 45px;
+}
+.custom-div{
+    padding: 6px 12px;
+    font-size: 1.4rem;
+    color: #5b5b5b;
+}
+.rectangulo-verde-tipo-1{
+    background-color: #ebf7f3;
+    border-radius: 10px;
+    padding: 20px 25px 15px;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    color: #11434c;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.select-custom{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #5b5b5b;
+    font-size: 1.4rem;
+    color: #5b5b5b;
+}
+.select-custom:focus{
+    border-color: #5b5b5b;
+    box-shadow: none;
+}
+.texto-adicional{
+    text-align: end;
+    color: #11434c;
+    font-size: 0.95rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.rectangulo-verde-tipo-2{
+    background-color: #ebf7f3;
+    border-radius: 10px;
+    /* padding: 20px 25px 15px; */
+    color: #11434c;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.rectangulo-verde-tipo-2 > p{
+    padding: 20px 25px 15px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+    margin-bottom: 0;
+}
+.btn-agregar-direccion{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2.8rem;
+    line-height: 2.2rem;
+    font-weight: 300;
+    background-color: #d7f1e8 !important;
+    border: none;
+    /* display: block; */
+    border-radius: 0;
+}
+.cont-guardar-cambios{
+    margin-bottom: 100px;
+}
+.btn-guardar-cambios{
+    background-color: #11434c !important;
+    color: white !important;
+    font-size: 1.3rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+    padding: 25px 90px 20px;
+    border-radius: 10px;
+}

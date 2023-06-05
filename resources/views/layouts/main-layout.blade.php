@@ -309,13 +309,31 @@
         Recuperar contraseña 2
     </button>
 
-    {{-- Recuperar contraseña 1 modal --}}
+    {{-- Recuperar contraseña 2 modal --}}
     <div class="modal fade" id="recuperarContrasenia2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">
                     <h2 class="recuperarContrasenia2-titulo">Recupera tu contraseña</h2>
                     <p class="recuperarContrasenia2-texto">Revisa tu correo y sigue las indicaciones para recuperar tu contraseña.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cerrarSesionModal">
+        Cerrar sesion modal
+    </button>
+
+    {{-- Cerrar sesion modal --}}
+    <div class="modal fade" id="cerrarSesionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h2 class="cerrarSesionModal-titulo">¿Deseas cerrar sesión?</h2>
+                    <p class="cerrarSesionModal-texto">Recuerda que para comprar nuestros productos debes mantener tu sesión iniciada.</p>
+                    <button class="btn cerrarSesionModalBtn-si">SÍ, SALIR</button>
+                    <button class="btn cerrarSesionModalBtn-no">NO, VOLVER</button>
                 </div>
             </div>
         </div>

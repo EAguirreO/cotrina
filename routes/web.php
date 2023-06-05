@@ -83,6 +83,26 @@ Route::get('/cuenta-creada', function () {
     return view('pages.cuenta-creada');
 })->name('client.cuenta-creada');
 
+Route::get('/recuperar-contrasenia-3', function () {
+    return view('pages.recuperar-contrasenia-3');
+})->name('client.recuperar-contrasenia-3');
+
+Route::get('/recuperar-contrasenia-4', function () {
+    return view('pages.recuperar-contrasenia-4');
+})->name('client.recuperar-contrasenia-4');
+
+Route::get('/perfil-usuario', function () {
+    return view('pages.perfil-usuario');
+})->name('client.perfil-usuario');
+
+Route::get('/mis-pedidos', function () {
+    return view('pages.mis-pedidos');
+})->name('client.mis-pedidos');
+
+Route::get('/terminos-condiciones', function () {
+    return view('pages.terminos-condiciones');
+})->name('client.terminos-condiciones');
+
 Route::get('/contactenos', function () {
     return view('pages.contactenos');
 })->name('contacto.form');
