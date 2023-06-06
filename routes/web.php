@@ -99,6 +99,10 @@ Route::get('/mis-pedidos', function () {
     return view('pages.mis-pedidos');
 })->name('client.mis-pedidos');
 
+Route::get('/pedidos-detalle', function () {
+    return view('pages.pedidos-detalle');
+})->name('client.pedidos-detalle');
+
 Route::get('/terminos-condiciones', function () {
     return view('pages.terminos-condiciones');
 })->name('client.terminos-condiciones');
