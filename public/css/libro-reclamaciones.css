@@ -1,0 +1,61 @@
+.content-libro-reclamaciones{
+    padding: 70px 140px 100px;
+}
+
+.linea-verde{
+    max-width: 800px;
+    height: 2px;
+    background-color: #2bb289;
+    margin: auto;
+    margin-bottom: 55px;
+}
+.contenedor{
+    width: 1050px;
+}
+.contenedor > h1{
+    font-size: 3.3rem;
+    color: #11434c;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contenedor > p{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.contenedor > h3{
+    color: #11434c;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+.color-verde{
+    color: #2bb289;
+    font-weight: 600;
+}
+.btn-formato{
+    color: #2bb289;
+    border: 2px solid #2bb289;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.cuadro-verde{
+    border: 2px solid #2bb289;
+    padding: 30px 30px 5px;
+    border-radius: 10px;
+}
+.cuadro-verde > p{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    margin-bottom: 20px;
+    text-align: justify;
+}

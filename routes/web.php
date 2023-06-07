@@ -107,6 +107,14 @@ Route::get('/terminos-condiciones', function () {
     return view('pages.terminos-condiciones');
 })->name('client.terminos-condiciones');
 
+Route::get('/preguntas-frecuentes', function () {
+    return view('pages.preguntas-frecuentes');
+})->name('client.preguntas-frecuentes');
+
+Route::get('/libro-reclamaciones', function () {
+    return view('pages.libro-reclamaciones');
+})->name('client.libro-reclamaciones');
+
 Route::get('/contactenos', function () {
     return view('pages.contactenos');
 })->name('contacto.form');
