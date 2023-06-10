@@ -115,6 +115,26 @@ Route::get('/libro-reclamaciones', function () {
     return view('pages.libro-reclamaciones');
 })->name('client.libro-reclamaciones');
 
+Route::get('/carrito', function () {
+    return view('pages.carrito');
+})->name('client.carrito');
+
+Route::get('/proceso-compra-1', function () {
+    return view('pages.proceso-compra-1');
+})->name('client.proceso-compra-1');
+
+Route::get('/proceso-compra-2', function () {
+    return view('pages.proceso-compra-2');
+})->name('client.proceso-compra-2');
+
+Route::get('/proceso-compra-3', function () {
+    return view('pages.proceso-compra-3');
+})->name('client.proceso-compra-3');
+
+Route::get('/proceso-compra-4', function () {
+    return view('pages.proceso-compra-4');
+})->name('client.proceso-compra-4');
+
 Route::get('/contactenos', function () {
     return view('pages.contactenos');
 })->name('contacto.form');

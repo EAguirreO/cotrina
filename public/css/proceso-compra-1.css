@@ -1,0 +1,128 @@
+.content-proceso-compra-1{
+    padding: 80px 140px 300px;
+}
+.contenido{
+    /* width: 100%; */
+    flex-grow: 1;
+    margin-right: 50px;
+}
+.contenido-titulo{
+    font-size: 3.3rem;
+    color: #11434c;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 28px
+}
+.linea-verde{
+    width: 100%;
+    height: 2px;
+    background-color: #2bb289;
+    margin-bottom: 45px;
+}
+.label-custom{
+    color: #11434c;
+    font-size: 1.6rem;
+    font-weight: 600;
+    /* margin-bottom: 0; */
+}
+.input-custom{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #5b5b5b;
+    font-size: 1.4rem;
+    color: #5b5b5b;
+}
+.input-custom:focus::placeholder{
+    color: #5b5b5b;
+}
+.input-custom:focus{
+    /* border-color: #2db18a; */
+    border-color: #5b5b5b;
+    box-shadow: none;
+}
+.input-custom:focus::placeholder{
+    /* color: #2db18a; */
+}
+.texto-adicional{
+    text-align: end;
+    color: #11434c;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 15px;
+    padding-right: 10px;
+}
+.select-custom{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #5b5b5b;
+    font-size: 1.4rem;
+    color: #5b5b5b;
+}
+.select-custom:focus{
+    border-color: #5b5b5b;
+    box-shadow: none;
+}
+.btn-crearDireccion{
+    background-color: #11434c;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 12px 20px 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.div-resumen{
+    background-color: #ebf7f3;
+    padding: 30px 40px 30px;
+    border-radius: 20px;
+}
+.resumen-titulo{
+    text-align: center;
+    color: #11434c;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.resumen-sub{
+    margin-bottom: 10px;
+}
+.resumen-texto-subtotal{
+    font-size: 1.6rem;
+    line-height: normal;
+    font-weight: 600;
+    color: #2bb289;
+    margin-bottom: 0;
+}
+.resumen-subtotal{
+    font-size: 1.6rem;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.resumen-parrafo{
+    color: #11434c;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.resumen-btnContinuar{
+    background-color: #11434c;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 12px 30px 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.resumen-btnContinuar-disabled{
+    opacity: 0.6;
+}
+.volver-cesta{
+    font-size: 1.1rem;
+    color: #11434c !important;
+    text-decoration: none;
+    border-bottom: 1px solid #11434c;
+}

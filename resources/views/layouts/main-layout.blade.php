@@ -339,6 +339,91 @@
         </div>
     </div>
 
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-carritoPreview" aria-controls="offcanvas-carritoPreview">
+        Carrito Preview
+    </button>
+      
+    <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="offcanvas-carritoPreview">
+        <div class="offcanvas-header">
+            {{-- <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> --}}
+            <button type="button" class="btn btn-cerrarCarritoPreview" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x-lg"></i>Cerrar</button>
+            {{-- <p>Cerrar</p> --}}
+        </div>
+        <div class="offcanvas-body d-flex flex-column justify-content-between">
+            <div class="d-flex flex-column overflow-y-scroll">
+                <h2 class="carritoPreviewTitulo">Cesta de Productos</h2>
+                <div class="carritoPreview-producto d-flex">
+                    <img class="carritoPreview-img-producto img-fluid" width="70" src="{{asset('img/carrito/01.jpg')}}" alt="">
+                    <div class="carritoPreview-contenedor-producto d-flex flex-column justify-content-between">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p class="carritoPreview-nombre-producto">Cúrcuma en polvo</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <button class="carritoPreview-btn-accion"><i class="bi bi-dash-lg"></i></button>
+                                <span class="carritoPreview-cantidad-producto">01</span>
+                                <button class="carritoPreview-btn-accion"><i class="bi bi-plus-lg"></i></button>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="carritoPreview-precio-producto">S/20.00 <span>(01 ud.)</span></p>
+                            <button class="carritoPreview-btn-eliminar">Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carritoPreview-producto d-flex">
+                    <img class="carritoPreview-img-producto img-fluid" width="70" src="{{asset('img/carrito/02.jpg')}}" alt="">
+                    <div class="carritoPreview-contenedor-producto d-flex flex-column justify-content-between">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p class="carritoPreview-nombre-producto">Jengibre en polvo</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <button class="carritoPreview-btn-accion"><i class="bi bi-dash-lg"></i></button>
+                                <span class="carritoPreview-cantidad-producto">02</span>
+                                <button class="carritoPreview-btn-accion"><i class="bi bi-plus-lg"></i></button>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="carritoPreview-precio-producto">S/20.00 <span>(02 uds.)</span></p>
+                            <button class="carritoPreview-btn-eliminar">Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carritoPreview-producto d-flex">
+                    <img class="carritoPreview-img-producto img-fluid" width="70" src="{{asset('img/carrito/03.jpg')}}" alt="">
+                    <div class="carritoPreview-contenedor-producto d-flex flex-column justify-content-between">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p class="carritoPreview-nombre-producto">Palta en cubos con...</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <button class="carritoPreview-btn-accion"><i class="bi bi-dash-lg"></i></button>
+                                <span class="carritoPreview-cantidad-producto">01</span>
+                                <button class="carritoPreview-btn-accion"><i class="bi bi-plus-lg"></i></button>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="carritoPreview-precio-producto">S/20.00 <span>(01 ud.)</span></p>
+                            <button class="carritoPreview-btn-eliminar">Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carritoPreview-resumen-div">
+                <h2 class="carritoPreview-resumen-titulo">Resumen de Pedido</h2>
+                <div class="carritoPreview-resumen-sub d-flex justify-content-between align-items-center">
+                    <p class="carritoPreview-resumen-texto-subtotal">Sub-total:</p>
+                    <p class="carritoPreview-resumen-subtotal">S/ 89.80</p>
+                </div>
+                <p class="carritoPreview-resumen-parrafo">*El precio del envío se calcula al momento de comprar.</p>
+                <div class="d-flex justify-content-center">
+                    <button class="carritoPreview-resumen-btnVerCesta">VER CESTA</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     {{-- Bootstrap JS --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     {{-- JQuery --}}

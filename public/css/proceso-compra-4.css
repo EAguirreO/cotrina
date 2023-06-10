@@ -1,0 +1,98 @@
+.content-proceso-compra-4{
+    padding: 110px 140px 200px;
+}
+.contenido{
+    width: 600px;
+}
+.contenido > h1{
+    font-size: 3.3rem;
+    color: #11434c;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.linea-verde{
+    width: 100%;
+    height: 2px;
+    background-color: #2bb289;
+    margin: auto;
+    margin-bottom: 55px;
+}
+.contenido > p{
+    color: #11434c;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 525px;
+}
+.contenido > p > span{
+    color: #2bb289;
+    font-weight: 500;
+}
+
+.div-resumen{
+    margin: auto;
+    margin-top: 20px;
+    flex-shrink: 0;
+    width: 500px;
+    background-color: #ebf7f3;
+    padding: 30px 40px 30px;
+    border-radius: 20px;
+}
+.resumen-titulo{
+    text-align: center;
+    color: #11434c;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.resumen-sub{
+    margin-bottom: 10px;
+}
+
+.resumen-item{
+    font-size: 1.6rem;
+    line-height: normal;
+    font-weight: 600;
+    color: #2bb289;
+    margin-bottom: 0;
+}
+.resumen-texto{
+    font-size: 1.6rem;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.linea-azul{
+    width: 100%;
+    height: 1px;
+    background-color: #11434c;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.resumen-sub-total{
+    margin-bottom: 20px;
+}
+.resumen-texto-total{
+    font-size: 2.2rem;
+    line-height: normal;
+    font-weight: 600;
+    color: #2bb289;
+    margin-bottom: 0;
+}
+.resumen-total{
+    font-size: 2.2rem;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.resumen-btnCompras{
+    background-color: #11434c;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 12px 45px 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
